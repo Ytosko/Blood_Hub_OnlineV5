@@ -1,36 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to Blood Hub wiki
 
 You can use the [editor on GitHub](https://github.com/Ytosko/Blood_Hub_OnlineV5/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Web-based Blood Donation Management System is a management system website that enables individuals who want to donate blood to help the needy. It also enables hospitals to record and store the data for people who want to communicate with them, and it also provides a centralized blood bank database. The system is developed by using HTML, PHP, and MySQL as a database system to manage and store the data. The Waterfall Methodology, which is the traditional version and the classic approach of a system development life cycle, is used to develop and build the web-based blood bank. The system targets three types of user: the public who wants to donate blood, the recipients who need the donated blood, and the hospitals who that work as an intermediary to manage the communication between the donors and recipients. The main objectives for developing the website is to educate the community on the benefits of blood donation, develop a Web-Based Blood Bank System to manage the records of donors and recipients, and encourage voluntary blood donation, easily accessing any information about blood type and the distribution of the blood in various hospitals in Jeddah, based on the hospital needs.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ytosko/Blood_Hub_OnlineV5/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
