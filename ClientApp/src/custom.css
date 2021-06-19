@@ -1,0 +1,37 @@
+a {
+  color: #0366d6;
+}
+
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding-top: 60px;
+    overflow-x: hidden;
+    position: absolute;
+    background-color:white;
+}
+body {
+    font-family: "Robot", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    overflow-x: hidden;
+}

@@ -1,0 +1,226 @@
+﻿.name {
+    display: inline;
+}
+
+.final {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.finalx {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.butg {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lok {
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    margin-top: 12pt;
+}
+
+nav {
+    background-color: #E8EAF6;
+    border: none;
+    border-bottom-left-radius: 12pt;
+    border-bottom-right-radius: 12pt;
+    padding-bottom: 0 !important;
+}
+.navbar-brand{
+    padding: 0px !important;
+}
+.lok span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+    .lok span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+.lok:hover {
+    background-color: #E8EAF6;
+    color: #2C3E50;
+    border-radius: 12pt;
+}
+
+    .lok:hover span {
+        padding-right: 25px;
+    }
+
+        .lok:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+#oiu {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    font-weight: bold;
+    color: black;
+}
+
+.syshome {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+    .syshome a {
+        padding-left: 8px;
+        padding-right: 15px;
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        transition: 0.3s;
+    }
+
+        .syshome a:hover {
+            color: #f1f1f1;
+        }
+
+    .syshome .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 0;
+        margin-left: 10pt;
+    }
+
+.newel {
+    height: 40px;
+    width: 40px;
+    font-size: 20pt;
+    border: none;
+    width: 19%;
+    color: white;
+}
+
+html {
+    font-size: 10pt;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    display: inline;
+    margin-left: 320pt;
+    margin-right: 20pt;
+}
+
+    .menu div {
+        display: inline-block;
+        margin-right: 70pt;
+    }
+
+        .menu div a span {
+            width: 100%;
+            text-align: center;
+            font-size: 18pt;
+            color: black;
+        }
+
+.uli {
+    display: none;
+}
+
+.hi2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: black;
+    transition: 0.5s;
+}
+
+.hix {
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+    width: 100%;
+    color: transparent;
+}
+
+@media (max-width: 1650px) {
+    .uli {
+        display: block;
+    }
+
+    .hi2 {
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .hix {
+        width: 0;
+        height: 0;
+    }
+}
+
+@media (min-width: 1650px) {
+    .uli {
+        display: none;
+    }
+
+    .hix {
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+        width: 100%;
+        height: 60px;
+    }
+
+    .hi2 {
+        width: 0;
+        height: 0;
+    }
+}
+
+.but {
+    width: auto;
+    height: auto;
+}
+
+#butox {
+    color: black;
+}
+.popover .arrow {
+    display: none;
+}
+.popover {
+    background-color: #2C3E50;
+    border-radius: 10pt;
+    border: none;
+}
+#noti {
+    font-size: 10pt;
+    color: #FDFEFE;
+    border: none;
+}
